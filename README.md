@@ -4,24 +4,6 @@ Claude Code skills for Engineering Managers. These slash commands help you stay 
 
 ## Skills
 
-### `/brain`
-
-Generates a team status snapshot by searching Linear and GitHub. Run this when you want a quick read on what everyone is working on before standup or a planning session.
-
-**What it produces:**
-- Per-engineer summary: current project/initiative, how long they've been on their latest tickets, and what's up next
-- Flags for concerns: very large PRs, reduced velocity, tickets open longer than a week
-- A list of items worth raising in standup
-
-**Team setup:** The skill reads your team roster from `TEAM.md` in the working directory. If the file doesn't exist, it will ask you to provide your team and create it.
-
-**Usage:**
-```
-/brain
-```
-
----
-
 ### `/good-morning`
 
 Runs a full morning briefing. Use this at the start of your day to orient yourself before diving into work.
@@ -36,6 +18,24 @@ Runs a full morning briefing. Use this at the start of your day to orient yourse
 **Usage:**
 ```
 /good-morning
+```
+
+---
+
+### `/brain`
+
+Generates a team status snapshot by searching Linear and GitHub. Run this when you want a quick read on what everyone is working on before standup or a planning session.
+
+**What it produces:**
+- Per-engineer summary: current project/initiative, how long they've been on their latest tickets, and what's up next
+- Flags for concerns: very large PRs, reduced velocity, tickets open longer than a week
+- A list of items worth raising in standup
+
+**Team setup:** The skill reads your team roster from `TEAM.md` in the working directory. If the file doesn't exist, it will ask you to provide your team and create it.
+
+**Usage:**
+```
+/brain
 ```
 
 ---
